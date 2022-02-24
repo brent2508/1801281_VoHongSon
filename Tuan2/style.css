@@ -1,0 +1,41 @@
+body {
+    margin: auto;
+    padding: 0px;
+    background-color: rgb(255, 255, 255);
+    height:700px;
+    width: 1089px;
+}
+.header{
+    background-color: aqua;
+    height: 150px;
+}
+.menu{
+    background-color: azure;
+    height: 50px;
+}
+.container{
+    width: 1089px;
+    height: 400px;
+}
+.container > .sec1{
+    background-color: chocolate;
+    width:30%;
+    height: 400px;
+    float: left;
+}
+.container > .sec2{
+    background-color: cornflowerblue;
+    width: 35%;
+    height: 400px;
+    display: inline-block;
+}
+.container > .sec3{
+    background-color: rgb(65, 139, 69);
+    width: 35%;
+    height: 400px;
+    float: right;
+}
+.footer{
+    background-color: dimgray;
+    height: 160px;
+}
